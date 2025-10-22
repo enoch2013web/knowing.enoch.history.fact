@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    /* Nigeria flag colors: green - white - green */
+    background: linear-gradient(to right, #008753 33.33%, #ffffff 33.33%, #ffffff 66.66%, #008753 66.66%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

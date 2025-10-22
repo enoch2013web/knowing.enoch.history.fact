@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/webp" href="favicon.webp" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The History of Nigeria</title>
+
+  <style>
+    /* General reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Background: Nigeria Flag gradient */
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(to right, #008753 33.33%, #ffffff 33.33%, #ffffff 66.66%, #008753 66.66%);
+      background-attachment: fixed;
+      background-size: cover;
+      line-height: 1.6;
+      color: #111;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: rgba(0, 77, 51, 0.95);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 8px 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: gold;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: rgba(255, 255, 255, 0.85);
+      margin-bottom: 20px;
+      border-radius: 12px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1, h2 {
+      color: #004d33;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.88);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .history-image {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    figcaption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 5px;
+      color: #333;
+    }
+
+    footer {
+      background-color: rgba(0, 77, 51, 0.95);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+
+  html {
+  scroll-behavior: smooth;
+
+  section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+}
+
+}
+
+      }
+    }
+  </style>
+  
+</head>
+
+<body>
+  <nav>
+    <a href="#pre-colonial">Pre-Colonial</a>
+    <a href="#colonial">Colonial</a>
+    <a href="#independence">Independence</a>
+    <a href="#civil-war">Civil War</a>
+    <a href="#modern-nigeria">Modern Era</a>
+    <a href="#tech-hub">Tech Hub</a>
+  </nav>
+
+  <header>
+    <h1>Welcome to Enoch’s Web of Knowledge</h1>
+    <h2>The Complete History of Nigeria</h2>
+    <p>
+      Discover the fascinating story of Nigeria — from the ancient kingdoms that shaped its identity,
+      through colonial struggles, independence, civil war, and into the modern era of progress and innovation.
+      This is the journey of a nation with deep roots and unstoppable spirit.
+    </p>
+  </header>
+
+  <section id="pre-colonial" class="container">
+    <h2>Pre-Colonial Nigeria</h2>
+    <p>
+      Nigeria’s pre-colonial era was home to great civilizations such as Nok, Ife, Benin, and Oyo — societies known
+      for art, trade, and sophisticated systems of governance long before European contact. The Nok civilization,
+      dating as far back as 1000 BC, was among the earliest in West Africa, renowned for terracotta sculptures
+      that captured both human and animal figures in striking detail.
+    </p>
+    <p>
+      In the southwest, the Oyo Empire thrived between the 14th and 18th centuries, wielding immense political and
+      military power. The empire’s system of government included the Alaafin (king) and the Oyo Mesi (council of chiefs),
+      forming one of the earliest models of checks and balances in African governance.
+    </p>
+    <p>
+      Meanwhile, the Benin Kingdom became a center of art and innovation. The Benin Bronzes, intricate metal plaques and
+      sculptures, showcased an advanced knowledge of metallurgy and depicted royal life, ceremonies, and historical
+      events. The city itself was surrounded by an elaborate system of walls — one of the largest man-made structures in the world.
+    </p>
+    <img src="images/benin-bronze.jpg" alt="Benin Bronze" class="history-image">
+    <figcaption>Benin Bronze Plaques – 15th Century</figcaption>
+  </section>
+
+  <section id="colonial" class="container">
+    <h2>Colonial Nigeria</h2>
+    <p>
+      By the late 19th century, Britain had extended its control across much of West Africa. Nigeria officially became
+      a British colony in 1914 when the Northern and Southern Protectorates were amalgamated. The system of indirect rule,
+      popularized by Lord Lugard, allowed traditional rulers to govern locally under British supervision.
+    </p>
+    <p>
+      While this reduced the cost of administration, it sowed divisions by favoring some regions over others.
+      Infrastructure like railways and roads were built primarily to extract natural resources such as palm oil and cocoa,
+      enriching Britain while impoverishing Nigerians.
+    </p>
+    <p>
+      Yet, education introduced by Christian missionaries gave rise to a new class of Nigerians — literate, ambitious,
+      and eager for self-rule. By the 1940s, nationalist movements gained strength under leaders like Nnamdi Azikiwe,
+      Obafemi Awolowo, and Ahmadu Bello, uniting Nigerians toward independence.
+    </p>
+    <img src="images/colonial-nigeria.jpg" alt="Colonial Nigeria" class="history-image">
+    <figcaption>British Colonial Nigeria – Early 1900s</figcaption>
+  </section>
+
+  <section id="independence" class="container">
+    <h2>Independence and Nationhood</h2>
+    <p>
+      Nigeria achieved independence on October 1, 1960 — a moment celebrated with joy and hope across the land.
+      The green-white-green flag symbolized agriculture, peace, and unity. Sir Nnamdi Azikiwe became the first Governor-General,
+      and Alhaji Tafawa Balewa served as Prime Minister.
+    </p>
+    <p>
+      But unity proved challenging. Ethnic and regional rivalries emerged, and differing political ideologies
+      created tension. In 1966, military coups shattered Nigeria’s first republic, setting the stage for civil conflict.
+    </p>
+    <img src="images/nigeria-independence.png" alt="Nigeria Independence Day" class="history-image">
+    <figcaption>Independence Ceremony – 1960</figcaption>
+  </section>
+
+  <section id="civil-war" class="container">
+    <h2>The Nigerian Civil War (1967–1970)</h2>
+    <p>
+      When the Eastern Region declared itself the Republic of Biafra under Colonel Odumegwu Ojukwu, Nigeria descended into
+      a brutal civil war. Millions suffered from famine and displacement. The conflict lasted for nearly three years before
+      Biafra surrendered in January 1970.
+    </p>
+    <p>
+      Despite the devastation, post-war Nigeria adopted the motto “No Victor, No Vanquished,” emphasizing reconciliation.
+      The government invested in rebuilding efforts, although the scars of the war still echo in modern times.
+    </p>
+    <img src="images/nigerian-civil-war.webp" alt="Nigerian Civil War" class="history-image">
+    <figcaption>Biafran War – A Time of Sorrow and Survival</figcaption>
+  </section>
+
+  <section id="modern-nigeria" class="container">
+    <h2>Modern Nigeria</h2>
+    <p>
+      Nigeria returned to civilian rule in 1999 after decades of military regimes. With democracy came hope for economic growth
+      and international influence. Nigeria became Africa’s largest economy, driven by oil, agriculture, and entertainment.
+    </p>
+    <p>
+      Yet, corruption, poverty, and insecurity remain challenges. Still, Nigeria’s people continue to show resilience.
+      Nollywood, Afrobeat, and the energy of its youth have made Nigeria a global cultural powerhouse.
+    </p>
+    <img src="images/modern-nigeria.jpg" alt="Modern Nigeria" class="history-image">
+    <figcaption>Modern Nigeria – Resilient, Bold, and Vibrant</figcaption>
+  </section>
+
+  <section id="tech-hub" class="container">
+    <h2>Nigeria’s Rise as Africa’s Tech Hub</h2>
+    <p>
+      In the 21st century, Nigeria has become the heartbeat of Africa’s digital revolution.
+      Startups like Paystack, Flutterwave, and Andela have placed Nigeria at the forefront of innovation.
+      With over 200 million citizens — most of them under 30 — the nation’s youth are turning technology into opportunity.
+    </p>
+    <p>
+      Lagos, often called “Africa’s Silicon Valley,” hosts thousands of startups and tech labs.
+      Nigerian fintech has enabled millions of unbanked citizens to access financial services, empowering
+      small businesses and fueling economic inclusion.
+    </p>
+    <p>
+      International investors now see Nigeria not only as a resource-rich nation but also as a home for creativity,
+      technology, and entrepreneurship that can transform the continent.
+    </p>
+    <img src="images/tech-hub.webp" alt="Nigeria Tech Innovation" class="history-image">
+    <figcaption>Innovation and Technology – Nigeria’s New Frontier</figcaption>
+  </section>
+
+  <footer>
+    <p>© 2025 Enoch’s Web of Knowledge | Built with pride for Nigeria 🇳🇬</p>
+  </footer>
+
+  <meta name="description" content="Explore the rich history of Nigeria from ancient kingdoms to modern tech innovations." />
+<meta name="keywords" content="Nigeria, history, independence, civil war, technology, Africa" />
+<meta property="og:image" content="url_to_image" />
+
+<script>
+  window.addEventListener('scroll', function () {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+      if (sectionTop < window.innerHeight - 100) {
+        section.classList.add('visible');
+      }
+    });
+  });
+</script>
+
+
+
+
+</body>
+</html>
